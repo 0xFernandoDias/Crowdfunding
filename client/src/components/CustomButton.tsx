@@ -9,7 +9,7 @@ function CustomButton({
 	btnType: "button" | "submit" | "reset" | undefined
 	title: string
 	styles: string
-	handleClick: () => void
+	handleClick?: () => void
 }) {
 	return (
 		<button
